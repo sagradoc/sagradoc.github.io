@@ -1,0 +1,35 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+header {
+	height: 100px;
+	background-color: #973C3C;
+	color: #fff;
+	text-align: center;
+}
+header h1 {
+	font-size: 2em;
+}
+p {
+	font-size: 0.75em;
+}
+.caja {
+	border: 1px solid #3E5A70;
+	padding: 1em;
+	border-radius: 1em;
+	margin: 1em;
+}
+.azul {
+	background-color: #3E5A70;
+}
+.rojo {
+	background-color: #973C3C;
+}
+.small {
+	font-size: 0.5em;
+}
+.big {
+	font-size: 1.5em;
+}
