@@ -1,0 +1,65 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	background-image: url('../img/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	background-attachment: fixed;
+}
+header {
+	text-align: center;
+}
+header > img {
+	width: 300px;
+	height: auto;
+}
+.caja-personaje {
+	border: 1px solid #898989;
+	padding: 20px 40px;
+	background-color: rgba(159, 159, 159, 0.85);
+	margin-left: 15%;
+	margin-right: 5%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.caja-personaje .caja-text h2 {
+	font-size: 28px;
+	color: #b5ffb5;
+	margin-bottom: 10px;
+}
+.caja-personaje .caja-text p {
+	font-size: 16px;
+	color: #b1dfb1;
+	margin-bottom: 20px;
+}
+.caja-personaje .caja-image img {
+	width: 100px;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+.caja-personaje::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.caja-image {
+	float: left;
+	width: 25%;
+}
+.caja-text {
+	float: left;
+	width: 75%;
+}
+.caja-text a {
+	text-decoration: none;
+    padding: 5px 10px;    
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+}
+.caja-text a:hover {
+	color: #1883ba;
+	background-color: #ffffff;
+}
