@@ -1,0 +1,127 @@
+/**
+	_                            
+\   \ /   /____   ____   ____   _____  
+ \   Y   // __ \ /    \ /  _ \ /     \ 
+  \     /\  ___/|   |  (  <_> )  Y Y  \
+   \___/  \___  >___|  /\____/|__|_|  /
+              \/     \/             \/ 
+
+	@author Bern
+	@year 2018
+	@version 1.0
+	black = #333536
+	white = #E5E6E6
+	red = #973C3C
+	blue = #314256
+*/
+body {
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 16px;
+	background-color: #333536;
+	color: #333536;
+}
+h1 {
+	font-size: 2em;
+	color: #f83C3C;
+	margin-bottom: 1em;
+}
+h2 {
+	font-size: 1.5em;
+	color: #314256;
+	margin-bottom: 1em;
+}
+p {
+	font-size: 1em;
+	color: #333536;
+	margin: 1em;
+}
+a {
+	font-size: 1em;
+	text-decoration: none;
+	color: #E5E6E6;
+}
+/* -- CABECERA -- */
+.page-header {
+	margin: 1.5em; 
+}
+.page-header .title {
+	color: #fff;
+	font-size: 2.5em;
+	margin-bottom: 0.75em;
+}
+#main-nav {
+	margin-top: 1em;
+}
+#main-nav li {
+	display: inline-block;
+	padding: 0.5em 1em;
+	background-color: #973C3C;
+}
+#main-nav li a {
+	color: #E5E6E6;
+}
+#main-nav li:hover {
+	background-color: #f83C3C;	
+}
+#main-nav li.active {
+	background-color: #314256;
+}
+/* -- PRINCIPAL -- */
+#main-content {
+	background-color: #E5E6E6;
+	min-height: 400px;
+	padding: 2em;
+}
+/* -- PIE -- */
+.page-footer {
+	background-color: #973C3C;
+	padding: 3em 6em;
+	text-align: right;
+}
+.panel {
+	float: left;
+	width: calc(33% - 1em);
+	box-sizing: border-box;
+	margin-right: 1em;
+	border: 1px solid #314256;
+	padding: 1em;
+	border-radius: 0.5em;
+	background-color: #fff;
+}
+.panel h3 {
+	color: #314256; 
+	font-size: 1.25em;
+	margin-bottom: 0.5em;
+}
+.panel img {
+	width: 100%;
+	display: block;
+}
+.button-link {
+	display: block;
+	padding: .5em;
+	color: #fff;
+	background-color: #314256;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+.front-image {
+	background-image: url('../img/front.jpg');
+	background-size: cover;
+	height: 300px;
+}
