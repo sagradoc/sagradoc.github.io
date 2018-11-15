@@ -1,0 +1,21 @@
+body {
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 18px;
+}
+
+.navbar-brand span.logo {
+	font-size: 1.5em;
+}
+.navbar-brand img {
+	height: 50px;
+	margin-right: 1em;
+}
+.navbar-light .navbar-brand {
+	color: #206E37;
+}
+.nav-item a.nav-link > img {
+	height: 40px;
+	margin-right: 1em;
+}
+
+
