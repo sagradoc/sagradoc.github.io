@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>¿Iré a FCT?</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h1>¿Iré a FCT?</h1>
+        <h2>Asignaturas de Segundo Curso</h2>
+        <div id="opciones">
+            <form action="" name="asignaturas" method="GET" onsubmit="return comprobarFct()">
+                <div class="campo">
+                    <label for="eie">Empresa e Iniciativa Emprendedora</label>
+                    <input type="checkbox" name="eie" value="3">
+                </div>
+                <div class="campo">
+                    <label for="it">Inglés Técnico</label>
+                    <input type="checkbox" name="it" value="2">
+                </div>
+                <div class="campo">
+                    <label for="aw">Aplicaciones Web</label>
+                    <input type="checkbox" name="aw" value="5">
+                </div>
+                <div class="campo">
+                    <label for="sor">Sistemas Operativos en Red</label>
+                    <input type="checkbox" name="sor" value="8">
+                </div>
+                <div class="campo">
+                    <label for="sr">Servicios en Red</label>
+                    <input type="checkbox" name="sr" value="8">
+                </div>
+                <div class="campo">
+                    <label for="si">Seguridad Informática</label>
+                    <input type="checkbox" name="si" value="4">
+                </div>
+                <div class="campo">
+                    <input type="submit" class="boton" value="¿Iré a las prácticas?">
+                </div>
+            </form>
+        </div>
+        <div id="resultado">
+            <div id="si" class="circulo verde">
+            </div>
+            <div id="no" class="circulo rojo">
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

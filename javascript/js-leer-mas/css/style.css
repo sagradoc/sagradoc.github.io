@@ -1,0 +1,26 @@
+body {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #8B7765;
+    background-color: #A0866E;
+}
+#contenedor {
+    background-color: #fff;
+    margin: 10vh auto;
+    width: 75%;
+    border: 1px solid bisque;
+    padding: 3em;
+}
+h1 {
+    color: #8CC1D8;
+}
+h2 {
+    color: #8E8B3D;
+}
+#mas {
+    display: none;
+}
+span {
+    color: #8CC1D8;
+    cursor: pointer;
+}
