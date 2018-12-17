@@ -1,0 +1,64 @@
+body {
+    font-size: 25px;
+    font-family: 'Major Mono Display', monospace;
+    background-color: #52E842;
+}
+.panel {
+    box-sizing: border-box;
+    padding: 3em;
+    border-radius: 5%;
+    background-color: #fff;
+    margin: 0.5em;
+    min-height: 400px;
+}
+.datos {
+    float: left;
+    width: calc(50% - 1em);
+}
+.resultados {   
+    float: left;
+    width: calc(50% - 1em);
+}
+.resultados > div {   
+    border: 1px solid #3DDA2C;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+header {
+    height: 100px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 2em;
+}
+h1 {
+    color: #21BD10;
+}
+.campo {
+    margin-bottom: 1em;
+    padding: 1em;
+}
+.campo label {
+    color: #33CC22;
+    display: inline-block;
+    width: 40%;
+}
+.campo input[type="text"] {
+    width: 50%;    
+    font-size: 2em;
+    color: #33CC22;
+}
+.boton {
+    font-size: 1em;
+    padding: 1em 2em;
+    display: block;
+    background-color: #33CC22;
+    color: #fff;
+}
+i {
+    font-size: 2em;
+    color: #33CC22;
+}
+.resultados p { 
+    font-size: 1.5em;
+    color: #33CC22;
+}
