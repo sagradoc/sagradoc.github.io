@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Cart</title>
+    <link rel="stylesheet" href="./bower_components/foundation/css/foundation.min.css">
+    <link rel="stylesheet" href="./bower_components/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="row">
+        <div class="columns large-12 text-center">
+            <h1>wordcart</h1>
+        </div>
+    </header>
+    <main class="row">
+        <section class="columns large-8" id="formulario">
+            <h3>Añada elementos a la lista de palabras</h3>
+            <form action="" id="form">
+                <button type="submit">Comprar <i class="fas fa-shopping-cart"></i></button>   
+                <div class="row">
+                    <div class="columns large-9">
+                        <label for="palabra">Palabra</label>
+                        <input type="text" placeholder="Escriba una bella palabra" name="palabra" id="palabra">
+                    </div>     
+                    <div class="columns large-3">
+                        <button class="button annadirPalabra"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>                
+            </form>
+        </section>
+        <section class="columns large-4" id="lista">
+            <h3>Tu lista de palabras:</h3>
+        </section>
+    </main>
+    <footer class="row">
+        <div class="columns large-12 text-right">
+            <p>Copyright 2019</p>
+        </div>
+    </footer>
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/foundation/js/foundation.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
